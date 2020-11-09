@@ -17,5 +17,6 @@ class QuestionsTest < ApplicationSystemTestCase
     click_on "Ask"
 
     assert_text "I don't care, get dressed and go to work!"
+    take_screenshot
   end
 end
